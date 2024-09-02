@@ -52,7 +52,7 @@ btns.forEach((btn)=>{
         }
         if(you == "paper" && comp == "paper")
         {
-            final.style.backgroundColor="red";
+            final.style.backgroundColor="yellow";
             final.innerText= `!!!DRAW!!!`;
             console.log("DRAW");
             console.log("Comp = ",comp);
@@ -82,7 +82,7 @@ btns.forEach((btn)=>{
         }
         if(you == "scissor" && comp == "scissor")
         {
-            final.style.backgroundColor="red";
+            final.style.backgroundColor="yellow";
             final.innerText= `!!!DRAW!!!`;
             console.log("DRAW");
             console.log("Comp = ",comp);
