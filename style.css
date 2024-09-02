@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: sans-serif;
 }
 .btns{
     display: flex;
@@ -45,6 +46,7 @@ img{
     margin-top: 6rem;
     margin-left: 50%;
     transform: translateX(-50%);
+    gap: 20px;
 }
 .scr h1,h3{
     color: black;
@@ -56,11 +58,105 @@ img{
     
 }
 .res h1{
+    padding: 10px;
     color: black;
-    width: 300px;
+    width: 600px;
     margin-top: 60px;
     background-color: white;
     margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 30px;
+    font-size: 25px;
 }
+
+/* ============================================================================================= */
+
+@media only screen and (max-width: 613px) {
+    .head{
+        font-size: 28px;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 400px;
+        margin-top: 10rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    #btn{
+        display: flex;
+        height: 90px;
+        width: 90px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        background-color: black;
+    }
+    img{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+    .res h1{
+        padding: 10px;
+        color: black;
+        width: 500px;
+        margin-top: 60px;
+        background-color: white;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border-radius: 30px;
+        font-size: 20px;
+    }
+   
+  }
+
+  /* ================================================================================================ */
+
+  @media only screen and (max-width: 481px) {
+    .head{
+        font-size: 26px;
+    }
+    .btns{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 350px;
+        margin-top: 10rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    #btn{
+        display: flex;
+        height: 80px;
+        width: 80px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        background-color: black;
+    }
+    img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .res h1{
+        padding: 10px;
+        color: black;
+        width: 450px;
+        margin-top: 60px;
+        background-color: white;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border-radius: 30px;
+        font-size: 18px;
+    }
+   
+  }
