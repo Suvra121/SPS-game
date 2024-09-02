@@ -92,3 +92,12 @@ btns.forEach((btn)=>{
 
     })
 })
+
+let ref = document.querySelector("#reset");
+
+ref.addEventListener("click",()=>{
+    final.style.backgroundColor="white";
+    final.innerText= ``;
+    scr1.innerText="0";
+    scr2.innerText="0";
+})
