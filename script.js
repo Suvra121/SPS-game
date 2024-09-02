@@ -69,6 +69,7 @@ btns.forEach((btn)=>{
         {
             scr2.innerText=++comp_scr;
             final.style.backgroundColor="red";
+            final.innerText= `!!!YOU LOSS!!! Comp = ${comp}`;
             console.log("You Loss...");
             console.log("Comp = ",comp);
         }
